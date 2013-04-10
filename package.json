@@ -1,6 +1,6 @@
 {
   "name": "sloper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Combine pattern files into a single file",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "author": "",
   "license": "BSD",
-  "devDependencies": {
+  "dependencies": {
     "handlebars": "~1.0.10",
     "walk": "~2.2.1",
     "jasmine-node": "~1.5.0"
