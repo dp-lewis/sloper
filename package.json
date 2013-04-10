@@ -1,0 +1,24 @@
+{
+  "name": "sloper",
+  "version": "0.0.1",
+  "description": "Combine pattern files into a single file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine-node app/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dp-lewis/sloper.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "handlebars": "~1.0.10",
+    "walk": "~2.2.1",
+    "jasmine-node": "~1.5.0"
+  },
+  "bin": {
+    "sloper": "app/bin/sloper.js"
+  }
+}

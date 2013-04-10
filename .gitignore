@@ -1,0 +1,5 @@
+node_modules
+app/spec/output/*
+output/*
+build/*.html
+build/**/*
