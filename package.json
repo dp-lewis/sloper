@@ -2,7 +2,7 @@
   "name": "sloper",
   "version": "0.0.2",
   "description": "Combine pattern files into a single file",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
     "start": "node index.js",
     "test": "jasmine-node app/spec"
