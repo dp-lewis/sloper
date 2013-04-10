@@ -1,6 +1,6 @@
 {
   "name": "sloper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Combine pattern files into a single file",
   "main": "index",
   "scripts": {

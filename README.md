@@ -5,14 +5,17 @@ Assembles an "allin.html" file based on the hbs files found in the patterns dire
 
 The patterns files are assembled into the build directory.
 
-To install 
----------------------
-`npm install`
+Install
 
-To start 
----------------------
-`npm start`
+`npm install -g sloper`
 
-To test 
----------------------
-`npm test`
+Usage
+
+`sloper [LAYOUT HANDLEBARS FILE] [DIRECTORY WITH HTML FRAGMENTS] [OUTPUT DIRECTORY]`
+
+Or
+
+`var sloper = require("sloper");
+
+sloper.start([LAYOUT HANDLEBARS FILE], [DIRECTORY WITH HTML FRAGMENTS], [OUTPUT DIRECTORY], [CALLBACK FUNCTION]);
+`
